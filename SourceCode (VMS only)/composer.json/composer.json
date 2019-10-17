@@ -1,0 +1,7 @@
+{
+    "name": "kiosk/master",
+    "require": {
+        "ext-gd": "*",
+        "endroid/qr-code": "^3.6"
+    }
+}

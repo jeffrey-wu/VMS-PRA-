@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cform.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="k-bg">
+        <h1 class="title">About you</h1>
+        <div class="form-container">
+            <form class="v-form" action="cform.php" method="POST">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txtb">
+                            <input type="text" name="firstname" required autocomplete="off"></input>
+                            <label>First name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txtb">
+                            <input type="text" name="surname" required autocomplete="off"></input>
+                            <label>Surname</label>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txtb">
+                            <input type="text" name="companyname" required autocomplete="off"></input>
+                            <label>Company name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txtb">
+                            <input type="text" name="contactno" required autocomplete="off"></input>
+                            <label>Contact no.</label>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txtb">
+                            <input type="submit" value="Submit"></input>
+                        </div>
+                    </div>
+                </div>      
+            </form>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-bottom" style="background-color:#ff8400">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="../visitType/visitType.html"><button type="button" class="general-btn general-sm-btn helpbtn"><img src="https://www.freeiconspng.com/uploads/back-undo-return-button-png-5.png" id="icon">BACK</button></a>
+            </li>        
+        </ul>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <button type="button" class="general-btn general-sm-btn helpbtn"><img src="https://image.flaticon.com/icons/svg/61/61671.svg" id="icon">HELP</button>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
